@@ -1,5 +1,5 @@
 import { Provider } from 'react-redux'; 
-import Store from './Store.jsx';
+import Store from './Store';
 import AppRouter from './AppRouter'; 
 
 
@@ -7,7 +7,7 @@ function App() {
 
   return ( 
 
-    <Provider Store={Store}> 
+    <Provider store={Store}> 
 
       <AppRouter /> 
 

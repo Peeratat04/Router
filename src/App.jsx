@@ -8,7 +8,7 @@ function App() {
 
   return ( 
 
-    <Provider store={Store}> 
+    <Provider Store={Store}> 
 
       <AppRouter /> 
 

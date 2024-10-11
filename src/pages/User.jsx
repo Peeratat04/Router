@@ -2,8 +2,6 @@ import { useParams } from 'react-router-dom';
 
 function User() { 
 
-  // รับค่าจาก Dynamic Route ด้วย useParams 
-
   const { userId } = useParams(); 
 
   return ( 

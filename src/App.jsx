@@ -8,7 +8,7 @@ function App() {
 
   return ( 
 
-    <Provider Store={Store}> 
+    <Provider store={Store}> 
 
       <AppRouter /> 
 
@@ -17,7 +17,5 @@ function App() {
   ); 
 
 } 
-
- 
 
 export default App; 

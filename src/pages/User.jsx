@@ -1,16 +1,22 @@
-import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom'; 
 
-function User() {
-  // รับค่าจาก Dynamic Route ด้วย useParams
-  const { userId } = useParams();
+function User() { 
 
-  return (
-    <div>
-      <h2>User Page</h2>
-      <p>User ID: {userId}</p>
-    </div>
-  );
-}
+  // รับค่าจาก Dynamic Route ด้วย useParams 
 
-export default User;
+  const { userId } = useParams(); 
+
+  return ( 
+
+    <div> 
+
+      <h2>User Page</h2> 
+
+      <p>User ID: {userId}</p> 
+
+    </div> 
+
+  ); 
+
+} 
+export default User; 
